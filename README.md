@@ -1,35 +1,18 @@
-# sql-sales-data-warehouse
-
 # Enterprise Sales Data Warehouse
 
 ## Overview
-Designed and implemented a SQL-based data warehouse using star schema modeling for enterprise sales reporting.
+Designed and implemented a SQL-based data warehouse using star schema modeling.
 
-## Architecture
-OLTP → Staging → Star Schema → Reporting Views → Performance Optimization → Monitoring
+## Features
+- OLTP to Star Schema transformation
+- ETL scripts
+- Stored procedures for reporting
+- Index optimization
+- Monitoring scripts
+- Role-based security
 
-## Key Features
-- Star Schema Design
-- ETL Data Loading
-- Stored Procedures for Reporting
-- Index Optimization
-- Query Performance Tuning
-- Database Monitoring Scripts
-- Role-Based Access Control
+## Performance
+Improved reporting performance using indexing and optimized joins.
 
-## Performance Improvements
-- Reduced reporting query execution time by 35%
-- Optimized joins using indexing
-- Improved data aggregation speed
-
-## DBA Capabilities Demonstrated
-- Backup & Restore scripts
-- Monitoring long-running queries
-- Role-based security implementation
-- Index fragmentation management
-
-## Technologies Used
-- SQL Server
-- T-SQL
-- Execution Plan Analysis
-- Index Optimization
+## Technologies
+SQL Server, T-SQL, Performance Tuning, Execution Plan Analysis
